@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/webvalleyagency/SonataFormatterBundle"
+            "url": "https://github.com/webvalleyagency/SonataFormatterBundle" 
         }
     ],
     "require": {
