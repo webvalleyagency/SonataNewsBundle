@@ -126,7 +126,6 @@ class PostAdmin extends AbstractAdmin
                         'horizontal_input_wrapper_class' => $isHorizontal ? 'col-lg-12' : '',
                         'attr' => ['class' => $isHorizontal ? 'span10 col-sm-10 col-md-10' : '', 'rows' => 20],
                     ],
-                    'ckeditor_context' => 'news',
                     'target_field' => 'content',
                     'listener' => true,
                 ])

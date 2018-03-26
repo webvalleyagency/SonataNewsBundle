@@ -24,7 +24,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/webvalleyagency/SonataFormatterBundle"
+            "url": "https://github.com/webvalleyagency/SonataFormatterBundle" 
         }
     ],
     "require": {
@@ -34,7 +34,6 @@
         "sonata-project/core-bundle": "^3.9",
         "sonata-project/datagrid-bundle": "^2.3",
         "sonata-project/easy-extends-bundle": "^2.5",
-        "sonata-project/formatter-bundle": "dev-sf4",
         "sonata-project/intl-bundle": "^2.4",
         "sonata-project/media-bundle": "^3.10",
         "sonata-project/user-bundle": "^3.6 || ^4.0",
@@ -91,6 +90,11 @@
     "autoload-dev": {
         "psr-4": {
             "Sonata\\NewsBundle\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "auto-scripts": {
+            "ckeditor:install --clear=drop": "symfony-cmd"
         }
     }
 }
